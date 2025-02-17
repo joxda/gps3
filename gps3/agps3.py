@@ -135,7 +135,7 @@ class DataStream(object):
     """
     packages = {
         'VERSION': {'release', 'proto_major', 'proto_minor', 'remote', 'rev'},
-        'TPV': {'alt', 'climb', 'device', 'epc', 'epd', 'eps', 'ept', 'epv', 'epx', 'epy', 'lat', 'lon', 'mode', 'speed', 'tag', 'time', 'track'},
+        'TPV': {'alt', 'climb', 'device', 'epc', 'epd', 'eps', 'ept', 'epv', 'epx', 'epy', 'lat', 'lon', 'mode', 'speed', 'status', 'tag', 'time', 'track'},
         'SKY': {'satellites', 'gdop', 'hdop', 'pdop', 'tdop', 'vdop', 'xdop', 'ydop'},
         # Subset of SKY: \\\'satellites': {'PRN', 'ss', 'el', 'az', 'used'}///  # is always present.
         'GST': {'alt', 'device', 'lat', 'lon', 'major', 'minor', 'orient', 'rms', 'time'},
